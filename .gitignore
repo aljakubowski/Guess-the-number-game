@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+
+/.idea
+/console/target
+/core/target
+/web/target
+guess-the-number-game.iml
+.DS_Store

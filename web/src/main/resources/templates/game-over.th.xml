@@ -1,0 +1,18 @@
+<thlogic>
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+
+    <attr sel="#result-message"
+          th:text="${__${T(alja.programming.util.AttributeNames).RESULT_MESSAGE}__}"/>
+
+    <attr sel="#restart"
+          th:href="@{__${T(alja.programming.util.GameMappings).RESTART}__}"/>
+
+    <attr sel="#home"
+          th:href="@{__${T(alja.programming.util.GameMappings).HOME}__}"/>
+
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+
+</thlogic>
+
